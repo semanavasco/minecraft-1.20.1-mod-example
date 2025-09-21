@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.svasco.examplemod.ExampleMod;
+import net.svasco.examplemod.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -25,6 +26,15 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> BLOCKS_TAB = CREATIVE_MODE_TABS.register("blocks_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.SAPPHIRE_BLOCK.get()))
+                    .title(Component.translatable("creativetab.blocks_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
                     .build());
 }

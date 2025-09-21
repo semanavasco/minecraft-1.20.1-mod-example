@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.svasco.examplemod.block.ModBlocks;
 import net.svasco.examplemod.item.ModCreativeModeTabs;
 import net.svasco.examplemod.item.ModItems;
 import org.slf4j.Logger;
@@ -25,6 +26,7 @@ public class ExampleMod {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
