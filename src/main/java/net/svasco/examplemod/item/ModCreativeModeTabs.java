@@ -35,6 +35,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.blocks_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                     })
                     .build());
 }

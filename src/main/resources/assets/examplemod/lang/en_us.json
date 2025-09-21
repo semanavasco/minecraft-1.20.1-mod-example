@@ -3,6 +3,7 @@
   "item.examplemod.raw_sapphire": "Raw Sapphire",
 
   "block.examplemod.sapphire_block": "Block of Sapphire",
+  "block.examplemod.raw_sapphire_block": "Block of Raw Sapphire",
 
   "creativetab.items_tab": "Example Mod Items Tab",
   "creativetab.blocks_tab": "Example Mod Blocks Tab"
