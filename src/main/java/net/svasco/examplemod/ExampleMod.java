@@ -1,6 +1,7 @@
 package net.svasco.examplemod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -11,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.svasco.examplemod.item.ModItem;
 import org.slf4j.Logger;
 
 @Mod(ExampleMod.MOD_ID)
@@ -20,6 +22,8 @@ public class ExampleMod {
 
     public ExampleMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModItem.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -35,6 +39,8 @@ public class ExampleMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+            event.accept(ModItem.SAPPHIRE);
     }
 
     @SubscribeEvent
