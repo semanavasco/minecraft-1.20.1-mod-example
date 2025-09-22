@@ -2,6 +2,7 @@
   "item.examplemod.sapphire": "Sapphire",
   "item.examplemod.raw_sapphire": "Raw Sapphire",
   "item.examplemod.metal_detector": "Metal Detector",
+  "item.examplemod.strawberry": "Strawberry",
 
   "block.examplemod.sapphire_block": "Block of Sapphire",
   "block.examplemod.raw_sapphire_block": "Block of Raw Sapphire",
@@ -12,5 +13,6 @@
   "block.examplemod.sound_block": "Sound Block",
 
   "creativetab.items_tab": "Example Mod Items Tab",
-  "creativetab.blocks_tab": "Example Mod Blocks Tab"
+  "creativetab.blocks_tab": "Example Mod Blocks Tab",
+  "creativetab.food_tab": "Example Mod Food Tab"
 }
