@@ -9,6 +9,7 @@
   "block.examplemod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.examplemod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.examplemod.end_stone_sapphire_ore": "End Sapphire Ore",
+  "block.examplemod.sound_block": "Sound Block",
 
   "creativetab.items_tab": "Example Mod Items Tab",
   "creativetab.blocks_tab": "Example Mod Blocks Tab"
