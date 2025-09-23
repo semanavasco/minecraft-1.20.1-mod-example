@@ -15,5 +15,8 @@
 
   "creativetab.items_tab": "Example Mod Items Tab",
   "creativetab.blocks_tab": "Example Mod Blocks Tab",
-  "creativetab.food_tab": "Example Mod Food Tab"
+  "creativetab.food_tab": "Example Mod Food Tab",
+
+  "tooltip.examplemod.metal_detector.tooltip": "Detects valuable blocks underground",
+  "tooltip.examplemod.sound_block.tooltip": "Plays a sound when right clicked"
 }
