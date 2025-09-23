@@ -1,6 +1,15 @@
-// 1.20.1	2025-09-23T21:01:30.042734337	Item Models: examplemod
+// 1.20.1	2025-09-23T21:57:57.842563737	Item Models: examplemod
 7d6ffeba563fe13b4ffae3443e01e18b66238ba4 assets/examplemod/models/item/metal_detector.json
 9174fa66e4ccaebd456ecbf56463130e4c80757e assets/examplemod/models/item/pine_cone.json
 3defe7a561cf3a0d9809dc6015fe8597647d482f assets/examplemod/models/item/raw_sapphire.json
 7912d9e14c59201171c90150558979557224fd30 assets/examplemod/models/item/sapphire.json
+53aad766e1df027454ee071c44d43fd3259a30b6 assets/examplemod/models/item/sapphire_button.json
+ad3646da6e79dc4b2fab7df013e900128c14e67b assets/examplemod/models/item/sapphire_door.json
+72afb01797856d449513a920385dc9239ff814ea assets/examplemod/models/item/sapphire_fence.json
+94f6854dd4f484791bae3b37f8973f2cc1279c58 assets/examplemod/models/item/sapphire_fence_gate.json
+6a09c64c8304a6c777c598bf76ac154a859283b2 assets/examplemod/models/item/sapphire_pressure_plate.json
+85a456e6b2ee6b04010bed3f0cac0450eae99730 assets/examplemod/models/item/sapphire_slab.json
+e4ff4ffe05274d7f42c870a9c48389421751b8ee assets/examplemod/models/item/sapphire_stairs.json
+f81e0efb0969284ed2f06884c9882e4446ead3da assets/examplemod/models/item/sapphire_trapdoor.json
+66c2f491ce84a4be1628fbdc85f7cad6978ee101 assets/examplemod/models/item/sapphire_wall.json
 4ea9b6657c759dfd355c163abb45feaf451a5fc1 assets/examplemod/models/item/strawberry.json

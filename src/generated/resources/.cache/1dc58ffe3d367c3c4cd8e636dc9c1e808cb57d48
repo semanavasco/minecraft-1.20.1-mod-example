@@ -1,7 +1,10 @@
-// 1.20.1	2025-09-23T21:01:30.042908709	Tags for minecraft:block mod id examplemod
+// 1.20.1	2025-09-23T21:57:57.842805171	Tags for minecraft:block mod id examplemod
 212c56a702ffad6b44bd5f383370949847bd94f0 data/examplemod/tags/blocks/metal_detector_valuables.json
 1edf8cf12e05648c681f01f651f8a98db5e8e006 data/forge/tags/blocks/needs_netherite_tool.json
+87ee82f06aef803be276229eb0c3bb3ac06770c9 data/minecraft/tags/blocks/fence_gates.json
+7b8287343afbfd977b9545fafc7811d468694d28 data/minecraft/tags/blocks/fences.json
 a2a3b19928bc0583e17bf75fa0450d8f90555921 data/minecraft/tags/blocks/mineable/pickaxe.json
 28fbecf5086e44b9ba483aa90e705c882522de7f data/minecraft/tags/blocks/needs_diamond_tool.json
 72fc5709692f3bf1441eca0c73a49ac61c33f326 data/minecraft/tags/blocks/needs_iron_tool.json
 f51fdda4dd3d9aa9748fb083ce453edb0a21e9c6 data/minecraft/tags/blocks/needs_stone_tool.json
+84f89a6547a50421b2f62829b7fa18f00ca4fe05 data/minecraft/tags/blocks/walls.json
