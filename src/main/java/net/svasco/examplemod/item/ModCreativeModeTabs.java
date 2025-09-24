@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                     })
                     .build());
 
