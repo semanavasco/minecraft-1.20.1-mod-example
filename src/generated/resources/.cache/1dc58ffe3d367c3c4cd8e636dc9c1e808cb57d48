@@ -1,5 +1,6 @@
-// 1.20.1	2025-09-23T21:57:57.842805171	Tags for minecraft:block mod id examplemod
+// 1.20.1	2025-09-24T18:56:35.595999402	Tags for minecraft:block mod id examplemod
 212c56a702ffad6b44bd5f383370949847bd94f0 data/examplemod/tags/blocks/metal_detector_valuables.json
+7db8d5b9802f4d220e0ecbe94bf8ead3a2432255 data/examplemod/tags/blocks/needs_sapphire_tool.json
 1edf8cf12e05648c681f01f651f8a98db5e8e006 data/forge/tags/blocks/needs_netherite_tool.json
 87ee82f06aef803be276229eb0c3bb3ac06770c9 data/minecraft/tags/blocks/fence_gates.json
 7b8287343afbfd977b9545fafc7811d468694d28 data/minecraft/tags/blocks/fences.json

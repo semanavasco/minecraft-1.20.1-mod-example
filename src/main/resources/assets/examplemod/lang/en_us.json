@@ -5,6 +5,11 @@
   "item.examplemod.strawberry": "Strawberry",
   "item.examplemod.pine_cone": "Pine Cone",
   "item.examplemod.sapphire_staff": "Sapphire Staff",
+  "item.examplemod.sapphire_sword": "Sapphire Sword",
+  "item.examplemod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.examplemod.sapphire_axe": "Sapphire Axe",
+  "item.examplemod.sapphire_shovel": "Sapphire Shovel",
+  "item.examplemod.sapphire_hoe": "Sapphire Hoe",
 
   "block.examplemod.sapphire_block": "Block of Sapphire",
   "block.examplemod.raw_sapphire_block": "Block of Raw Sapphire",
