@@ -10,6 +10,10 @@
   "item.examplemod.sapphire_axe": "Sapphire Axe",
   "item.examplemod.sapphire_shovel": "Sapphire Shovel",
   "item.examplemod.sapphire_hoe": "Sapphire Hoe",
+  "item.examplemod.sapphire_helmet": "Sapphire Helmet",
+  "item.examplemod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.examplemod.sapphire_leggings": "Sapphire Leggings",
+  "item.examplemod.sapphire_boots": "Sapphire Boots",
 
   "block.examplemod.sapphire_block": "Block of Sapphire",
   "block.examplemod.raw_sapphire_block": "Block of Raw Sapphire",
